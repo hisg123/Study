@@ -1,7 +1,7 @@
 const fs = require('fs');
 const stdin = (process.platform === 'linux' ?
     fs.readFileSync('/dev/stdin') :
-    18
+    21
 );
 
 const input = (() => {
@@ -11,32 +11,37 @@ const input = (() => {
 let SugarDeliver = function (sugar) {
     const containers = [5, 3];
     const LAST_IDX = containers.length - 1;
+    let temp = {
+        sugar: sugar,
+        cnt: 0
+    };
     let cnt = 0;
     let index = 0;
 
     while (sugar > 0) {
+        console.log(`sugar: ` + sugar);
+        console.log(`container: ` + containers[index]);
+        console.log(`cnt: ` + cnt);
         if (sugar >= containers[index]) {
-            console.log('sugar: '+sugar);
-            console.log('container: ' + containers[index]);
-            console.log('cnt:' + cnt);
+            temp['sugar'] = sugar;
+            temp['cnt'] = cnt;
             sugar -= containers[index];
-            if (index === LAST_IDX && sugar < containers[LAST_IDX] && sugar !== 0) {
-                console.log(-1)
-                return -1;
-            } else if (sugar < containers[index] && sugar > 0) {
-                sugar += containers[index];
+            cnt++;
+        } else {
+            if (index === LAST_IDX) {
+                cnt = -1;
+                break;
+            } else if (sugar % containers[index + 1] !== 0) {
+                sugar = temp['sugar'];
+                cnt = temp['cnt'];
                 index++;
             } else {
-                cnt++;
+                index++;
             }
-
-        } else {
-            index++;
         }
     }
 
-    console.log(cnt);
     return cnt;
 }
 
-SugarDeliver(input());
+console.log(SugarDeliver(input()));
