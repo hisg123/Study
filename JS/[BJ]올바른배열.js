@@ -1,6 +1,4 @@
-
 const fs = require('fs');
-const { resourceLimits } = require('worker_threads');
 const stdin = (process.platform === 'linux'
     ? fs.readFileSync('/dev/stdin').toString().trim()
     :
@@ -16,21 +14,28 @@ const stdin = (process.platform === 'linux'
 
 const input = (() => {
     return () => stdin.map(element => {
-        return Number(element.trim()[[
-
-        ]])
+        return Number(element.trim())
     });
 })()
 
 let ValidArray = function (n, list) {
     let result = "";
+    let cntArray = [];
     list.sort((a, b) => a - b);
 
     for (let i = 0; i < list.length; i++) {
-        
-    }   
-    console.log(list);
-    return result;
+        let cnt = 0;
+        let index = 0;
+        let value = list[i];
+
+        while (index < 4) {
+            value++;
+            if (value !== list[i + 1 + index - cnt]) { cnt++; }
+            index++;
+        }
+        cntArray.push(cnt);
+    }
+    return Math.min(...cntArray);
 }
 
-ValidArray(input()[0], input().slice(1));
+console.log(ValidArray(input()[0], input().slice(1)));
