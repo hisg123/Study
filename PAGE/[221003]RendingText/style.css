@@ -41,8 +41,12 @@ body {
     display: block;
     position: absolute;
     top: 0;
-    right: -10;
+    right: -10px;
     width: 4px;
     height: 100%;
     background-color: white;
+}
+
+#dynamic.active::after{
+    display: none;
 }
