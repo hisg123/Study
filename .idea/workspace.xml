@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26da2d21-7976-4355-8db4-133bb55a1720" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PYTHON/DFS&amp;BFS/MyBFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PYTHON/DFS&amp;BFS/MyDFS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYTHON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PYTHON/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +37,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PYTHON/DFS&amp;BFS/DFS.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PYTHON/DFS&amp;BFS/MyDFS.py" />
   </component>
   <component name="RunManager">
-    <configuration name="DFS" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="MyDFS" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -51,7 +52,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PYTHON/DFS&amp;BFS/DFS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PYTHON/DFS&amp;BFS/MyDFS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
