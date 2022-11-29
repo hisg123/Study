@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="147ab227-8783-46f6-aa17-cefa67230374" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DP/[BOJ11053]가장긴증가하는부분수열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/구현/[BOJ3003]킹,퀸,룩,비숍,나이트,폰.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/구현/[BOJ4673]셀프넘버.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26da2d21-7976-4355-8db4-133bb55a1720" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PYTHON/DFS&amp;BFS/[BOJ11724]연결요소의개수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PYTHON/DP/[BOJ11053]가장긴증가하는부분수열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PYTHON/구현/[BOJ3003]킹,퀸,룩,비숍,나이트,폰.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PYTHON/구현/[BOJ4673]셀프넘버.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,22 +38,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PYTHON/DFS&amp;BFS/[BOJ11724]연결요소의개수.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/pythonProject" />
   </component>
   <component name="RunManager">
-    <configuration name="[BOJ11724]연결요소의개수" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="[BOJ3003]킹,퀸,룩,비숍,나이트,폰" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\20605\AppData\Local\Programs\Python\Python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PYTHON/DFS&amp;BFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PYTHON/구현" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PYTHON/DFS&amp;BFS/[BOJ11724]연결요소의개수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PYTHON/구현/[BOJ3003]킹,퀸,룩,비숍,나이트,폰.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
